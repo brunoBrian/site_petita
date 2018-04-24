@@ -11,6 +11,8 @@
 
     <title>Origamid</title>
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
@@ -48,7 +50,7 @@
     </section>
 
     <!-- Produtos -->
-    <section class="container produtos">
+    <section class="container produtos" id="produtos">
       <h2 class="subtitulo">Produtos</h2>
       <ul class="lista_produtos">
         <li class="grid-1-3">
@@ -106,7 +108,7 @@
     </section>
 
     <!-- portfolio -->
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="subtitulo">Portfolio</h2>
         <ul>
@@ -203,7 +205,7 @@
         </div>
     </section>
 
-    <section class="onde_estamos clearfix">
+    <section class="onde_estamos clearfix" id="contato">
       <h2 class="subtitulo">Onde estamos</h2>
       <div class="grid-12 location" >
         <p>Rua Ricardo Gonçalves, 37 – Vila Augusta, Mauá – São Paulo</p>
