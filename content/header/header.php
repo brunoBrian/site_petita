@@ -2,7 +2,7 @@
 <!-- Navbar (sit on top) -->
 <div class="container menu">
   <div class="menu-container" id="myNavbar">
-    <a href="#home" class="menu-logo">LOGO</a>
+    <a href="#" class="menu-logo">LOGO</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small header-menu">
       <a href="#about" class="menu-item">Sobre</a>
