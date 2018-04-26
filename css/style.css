@@ -377,6 +377,12 @@ nav.hide-menu {
     background: brown;
 }
 
+/*Images-Gallery*/
+
+#modal-gallery #img-modal {
+    display: inline-block;
+}
+
 /*Footer*/
 footer {
 	background: #000;
@@ -431,7 +437,7 @@ footer {
 }
 
 .footer .facebook i {
-	background: #4064b7;
+	background: #3b5998;
     color: #fff;
     font-size: 25px;
     padding: 7px;

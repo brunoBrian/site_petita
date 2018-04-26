@@ -22,3 +22,12 @@ function w3_close() {
     mySidebar.removeClass('show-menu');
     mySidebar.addClass('hide-menu');
 }
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img-modal").src = element.src;
+  document.getElementById("modal-gallery").style.display = "block";
+  document.getElementById("modal-gallery").style.zIndex = "10";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}

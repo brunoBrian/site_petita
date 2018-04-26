@@ -56,7 +56,7 @@
         <li class="grid-1-3">
           <a href="#">
             <div class="img_icone_produto">
-              <img src="images/cachorro.png" alt="Petita Cachorros">
+              <img src="images/cachorro.png" onclick="onClick(this)" alt="Petita Cachorros">
             </div>
             <h3>Cachorros</h3>
             <p>Aquela descricao basica meu amor </p>
@@ -65,7 +65,7 @@
         <li class="grid-1-3">
           <a href="#">
             <div class="img_icone_produto">
-              <img src="images/gato.png" alt="Petita Gatos">
+              <img src="images/gato.png" onclick="onClick(this)" alt="Petita Gatos">
             </div>
             <h3>Gatos</h3>
             <p>Aquela descricao basica meu amor</p>
@@ -74,7 +74,7 @@
         <li class="grid-1-3">
           <a href="#">
             <div class="img_icone_produto">
-              <img src="images/animais2.png" alt="Petita Animais">
+              <img src="images/animais2.png" onclick="onClick(this)" alt="Petita Animais">
             </div>
             <h3>Animais</h3>
             <p>Aquela descricao basica meu amor</p>
@@ -112,9 +112,15 @@
       <div class="container">
         <h2 class="subtitulo">Portfolio</h2>
         <ul>
-          <li class="grid-8"><img src="https://img.elo7.com.br/product/zoom/FBCE34/adesivo-paisagem-praia-decorando-com-adesivos.jpg" alt="Paisagem"></li>
-          <li class="grid-8"><img src="https://fineartamerica.com/images/artworkimages/medium/1/-mother-and-4-golden-retriever-pups-stan-fellerman.jpg" alt="Passeio"></li>
-          <li class="grid-16"><img src="https://sociquiz.xyz/media/-est-s-con-el-hombre-indicado/quiz-animais-fofos.jpg" alt="Esporte"></li>
+          <li class="grid-8">
+            <img src="https://img.elo7.com.br/product/zoom/FBCE34/adesivo-paisagem-praia-decorando-com-adesivos.jpg" onclick="onClick(this)" alt="Paisagem">
+          </li>
+          <li class="grid-8">
+            <img src="https://fineartamerica.com/images/artworkimages/medium/1/-mother-and-4-golden-retriever-pups-stan-fellerman.jpg" onclick="onClick(this)" alt="Passeio">
+          </li>
+          <li class="grid-16">
+            <img src="https://sociquiz.xyz/media/-est-s-con-el-hombre-indicado/quiz-animais-fofos.jpg" onclick="onClick(this)" alt="Esporte">
+          </li>
         </ul>
       </div>
       <div class="chamada_produtos">
@@ -218,8 +224,17 @@
     </section>
 
     <section class="imagem-destaque">
-      <a href="#"><img src="images/loja-petita.jpg"></a>
+      <a href="#"><img src="images/loja-petita.jpg" onclick="onClick(this)"></a>
     </section>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal-gallery" class="w3-modal w3-black" onclick="this.style.display='none'">
+      <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img-modal" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
 
     <footer>
       <?php require('content/footer/footer.php'); ?>
