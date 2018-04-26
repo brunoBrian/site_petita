@@ -13,8 +13,8 @@
     </div>
     <div class="grid-4 footer_redes">
     	<h3>Redes Sociais</h3>
-        <a href="#" class="facebook">Buscar</a>
-         <span aria-hidden="true" data-icon="&#xe014;"></span>
-
-    </div>
+        <a href="#" class="facebook"><i class="fa">&#xf09a;</i></a>
+        <a href="#" class="instagram"><i class="fa">&#xf16d;</i></a>
+        <a href="#" class="whatsapp"><i class="fa">&#xf232;</i></a>
+            </div>
 </div>

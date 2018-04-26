@@ -78,6 +78,19 @@
 	.w3-hide-small {
 		display: block!important;
 	}
+
+
+
+
+	/*Marcas*/
+	.slide-marcas ul li.grid-4{
+    	width: 20%;
+	}
+	
+	.slide-marcas ul li.grid-4 img {
+	    height: 128px;
+	    width: 90%;
+	}
 	 
 }
 
